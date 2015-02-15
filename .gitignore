@@ -36,3 +36,6 @@ nosetests.xml
 .pydevproject
 scripts/output
 scripts/nohup.out
+
+# self define
+scripts/tmp

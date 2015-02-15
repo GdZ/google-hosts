@@ -27,5 +27,8 @@ then
 fi
 
 p=${1//\./\\\.}
+echo p:$p
 p=${p//\*/\\\*}
+echo p:$p
+echo grep -Ph "\s$p$" output/* | sort -k2n -k3n
 grep -Ph "\s$p$" output/* | sort -k2n -k3n
